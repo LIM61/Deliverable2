@@ -1,0 +1,65 @@
+import java.util.*;
+import junit.framework.*;
+
+
+public class Test {
+
+ public static void main(String[] args) {
+
+
+
+// 1. withdraw: withdraw < balance 
+AccountTest.testWithdrawLessThanBalance();
+
+// 2. withdraw: withdraw = balance
+AccountTest.testEqual
+
+
+// 3. withdraw: withdraw > balance
+AccountTest.testWithdrawMoreThanBalance() 
+
+
+// 4. getAccountType: checking  
+AccountTest.
+
+
+// 5. getAccountStatus 
+AccountTest.getAccountStatusStubbing()
+
+
+//6. deposit: deposit a non-positive number
+AccountTest. testDepoitNonPositiveNumber () 
+
+// 7. setAccountStatus1: active
+AccountTest.testsetActiveAccount()
+
+
+// 8. setAccountStatus2: Inactive
+AccountTest.testsetInactiveAccount()
+
+// 9. getPINNumber
+AccountTest.testGetPINNumber()
+
+
+// 10. setPINnumber
+AccountTest.testsetPINNumber(){
+           
+// 11. deposit balance
+AccountTest.testDepoitBalance() 
+            
+//12. deposit failure: input a string
+AccountTest.testDepositString() 
+
+// 13. Account constructor 
+AccountTest.testAccountConstructor()
+           
+// 14. getAccountNumber
+AccountTest.testgetAccountNumber()
+            
+// 15. Deposit Amount
+AccountTest.testDepositAmount() 
+
+}
+
+}
+  

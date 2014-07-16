@@ -18,9 +18,8 @@ AccountTest.testEqual
 // 3. withdraw: withdraw > balance
 AccountTest.testWithdrawMoreThanBalance() 
 
-
 // 4. getAccountType: checking  
-AccountTest.
+AccountTest.testgetAccountTypeCheckingMock()
 
 
 // 5. getAccountStatus 

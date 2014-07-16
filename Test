@@ -12,51 +12,51 @@ public class Test {
 AccountTest.testWithdrawLessThanBalance();
 
 // 2. withdraw: withdraw = balance
-AccountTest.testEqual
+AccountTest.testWithdraw
+// 11. deposit balance
+AccountTest.testDepoitBalance() 
+            EqualsToBalance();
 
 
 // 3. withdraw: withdraw > balance
-AccountTest.testWithdrawMoreThanBalance() 
+AccountTest.testWithdrawMoreThanBalance();
 
 // 4. getAccountType: checking  
-AccountTest.testgetAccountTypeCheckingMock()
+AccountTest.testgetAccountTypeCheckingMock();
 
 
 // 5. getAccountStatus 
-AccountTest.getAccountStatusStubbing()
+AccountTest.getAccountStatusStubbing();
 
 
 //6. deposit: deposit a non-positive number
-AccountTest. testDepoitNonPositiveNumber () 
+AccountTest. testDepoitNonPositiveNumber ();
 
 // 7. setAccountStatus1: active
-AccountTest.testsetActiveAccount()
+AccountTest.testsetActiveAccount();
 
 
 // 8. setAccountStatus2: Inactive
-AccountTest.testsetInactiveAccount()
+AccountTest.testsetInactiveAccount();
 
 // 9. getPINNumber
-AccountTest.testGetPINNumber()
+AccountTest.testGetPINNumber();
 
 
 // 10. setPINnumber
-AccountTest.testsetPINNumber(){
+AccountTest.testsetPINNumber();
            
-// 11. deposit balance
-AccountTest.testDepoitBalance() 
-            
 //12. deposit failure: input a string
-AccountTest.testDepositString() 
+AccountTest.testDepositString(); 
 
 // 13. Account constructor 
-AccountTest.testAccountConstructor()
+AccountTest.testAccountConstructor();
            
 // 14. getAccountNumber
-AccountTest.testgetAccountNumber()
+AccountTest.testgetAccountNumber();
             
 // 15. Deposit Amount
-AccountTest.testDepositAmount() 
+AccountTest.testDepositAmount(); 
 
 }
 

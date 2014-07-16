@@ -1,7 +1,7 @@
 // 1. withdraw: withdraw < balance 
 // test what happens if withdraw amount is less than balance
     public static void testWithdrawLessThanBalance() {
-            System.out.println("1. withdraw> balance.");
+            System.out.println("1. withdraw < balance.");
         Account account = new Account(061732, 500);
                 account.setAccountStatus("Active");
         account.withdraw(200);
